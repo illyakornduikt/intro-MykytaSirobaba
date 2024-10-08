@@ -16,7 +16,7 @@ public class TileManager {
         tile = new Tile[10];
         mapTileNum = new int[gp.maxWorldCol][gp.maxWorldRow];
         getTileImage();
-        loadMap("javaSwingProject/res/maps/world01.txt");
+        loadMap("application/res/maps/world01.txt");
     }
     public void getTileImage(){
         try {
